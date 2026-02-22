@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the po-review-board package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: po-review-board 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-22 07:04+0100\n"
+"PO-Revision-Date: 2026-02-22 07:13+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305193/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/po_review_board/main.py:141 src/po_review_board/main.py:153
+#: src/po_review_board/main.py:747
+msgid "PO Review Board"
+msgstr "PO Review Board"
+
+#: src/po_review_board/main.py:157
+msgid "Open .po file"
+msgstr "Öppna .po-fil"
+
+#: src/po_review_board/main.py:161
+msgid "Compare with another .po file"
+msgstr "Jämför med en annan .po-fil"
+
+#: src/po_review_board/main.py:167
+msgid "All entries"
+msgstr "Alla poster"
+
+#: src/po_review_board/main.py:167
+msgid "Untranslated"
+msgstr "Oöversatta"
+
+#: src/po_review_board/main.py:167
+msgid "Fuzzy"
+msgstr "Luddiga"
+
+#: src/po_review_board/main.py:168 src/po_review_board/main.py:600
+msgid "Approved"
+msgstr "Godkända"
+
+#: src/po_review_board/main.py:168 src/po_review_board/main.py:601
+msgid "Rejected"
+msgstr "Avvisade"
+
+#: src/po_review_board/main.py:168 src/po_review_board/main.py:602
+msgid "Needs work"
+msgstr "Behöver bearbetas"
+
+#: src/po_review_board/main.py:181 src/po_review_board/main.py:686
+msgid "Export Review Report"
+msgstr "Exportera granskningsrapport"
+
+#: src/po_review_board/main.py:182
+msgid "Copy Debug Info"
+msgstr "Kopiera felsökningsinformation"
+
+#: src/po_review_board/main.py:183
+msgid "Keyboard Shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: src/po_review_board/main.py:184
+msgid "About PO Review Board"
+msgstr "Om PO Review Board"
+
+#: src/po_review_board/main.py:199
+msgid "Search entries..."
+msgstr "Sök poster..."
+
+#: src/po_review_board/main.py:225
+msgid "No file loaded"
+msgstr "Ingen fil inläst"
+
+#: src/po_review_board/main.py:226
+msgid "Open a .po or .pot file to start reviewing translations."
+msgstr "Öppna en .po- eller .pot-fil för att börja granska översättningarna."
+
+#: src/po_review_board/main.py:240
+msgid "Source (msgid)"
+msgstr "Källa (msgid)"
+
+#: src/po_review_board/main.py:254
+msgid "Translation (msgstr)"
+msgstr "Översättning (msgstr)"
+
+#: src/po_review_board/main.py:268
+msgid "Diff"
+msgstr "Diff"
+
+#: src/po_review_board/main.py:293
+msgid "Approve"
+msgstr "Godkänn"
+
+#: src/po_review_board/main.py:298
+msgid "Needs Work"
+msgstr "Behöver bearbetas"
+
+#: src/po_review_board/main.py:303
+msgid "Reject"
+msgstr "Avvisa"
+
+#: src/po_review_board/main.py:308
+msgid "Clear"
+msgstr "Töm"
+
+#: src/po_review_board/main.py:316
+msgid "Review Comment"
+msgstr "Granskningskommentar"
+
+#: src/po_review_board/main.py:328
+msgid "Save Comment"
+msgstr "Spara kommentar"
+
+#: src/po_review_board/main.py:348
+msgid "Ready"
+msgstr "Redo"
+
+#: src/po_review_board/main.py:364
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: src/po_review_board/main.py:370
+msgid "Welcome to PO Review Board"
+msgstr "Välkommen till PO Review Board"
+
+#: src/po_review_board/main.py:372
+msgid ""
+"Review .po translations with ease.\\n\\n✓ Visual diff between .po file "
+"versions\\n✓ Approve, reject, or mark entries as needs-work\\n✓ Add review "
+"comments per entry\\n✓ Filter by status, fuzzy, untranslated\\n✓ Export "
+"review reports"
+msgstr ""
+"Granska .po-översättningar med lätthet.\\n\\n✓ Visuell jämförelse mellan "
+"olika versioner av .po-filer\\n✓ Godkänn, avvisa eller markera poster som "
+"behöver bearbetas\\n✓ Lägg till granskningskommentarer per post\\n✓ Filtrera"
+" efter status, luddiga eller oöversatta\\n✓ Exportera granskningsrapporter"
+
+#: src/po_review_board/main.py:380
+msgid "Get Started"
+msgstr "Kom igång"
+
+#: src/po_review_board/main.py:403
+msgid "Open PO File"
+msgstr "Öppna PO-fil"
+
+#: src/po_review_board/main.py:405 src/po_review_board/main.py:426
+msgid "PO/POT files"
+msgstr "PO/POT-filer"
+
+#: src/po_review_board/main.py:424
+msgid "Open file to compare"
+msgstr "Öppna fil att jämföra"
+
+#: src/po_review_board/main.py:442
+#, python-format
+msgid "Diff loaded: %s"
+msgstr "Diff inläst: %s"
+
+#: src/po_review_board/main.py:467
+#, python-format
+msgid "Loaded: %s — %d entries"
+msgstr "Läste in: %s — %d poster"
+
+#: src/po_review_board/main.py:511
+msgid "fuzzy"
+msgstr "luddig"
+
+#: src/po_review_board/main.py:570
+#, python-format
+msgid "Context: %s"
+msgstr "Kontext: %s"
+
+#: src/po_review_board/main.py:588
+msgid "old"
+msgstr "gammal"
+
+#: src/po_review_board/main.py:588
+msgid "new"
+msgstr "ny"
+
+#: src/po_review_board/main.py:592
+msgid "(no changes)"
+msgstr "(inga ändringar)"
+
+#: src/po_review_board/main.py:642
+#, python-format
+msgid "%(time)s — Comment saved"
+msgstr "%(time)s — Kommentar sparades"
+
+#: src/po_review_board/main.py:650
+#, python-format
+msgid ""
+"%(total)d entries, %(translated)d translated, %(fuzzy)d fuzzy, %(approved)d "
+"approved"
+msgstr ""
+"%(total)d poster, %(translated)d översatta, %(fuzzy)d luddiga, %(approved)d "
+"godkända"
+
+#: src/po_review_board/main.py:710
+#, python-format
+msgid "Report exported to %s"
+msgstr "Rapport exporterad till %s"
+
+#: src/po_review_board/main.py:727
+msgid "Debug info copied"
+msgstr "Felsökningsinformation kopierades"
+
+#: src/po_review_board/main.py:733
+msgid "General"
+msgstr "Allmänt"
+
+#: src/po_review_board/main.py:735
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/po_review_board/main.py:736
+msgid "Export report"
+msgstr "Exportera rapport"
+
+#: src/po_review_board/main.py:737
+msgid "Keyboard shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: src/po_review_board/main.py:754
+msgid ""
+"Review .po translations with diff view, comments and approval workflow."
+msgstr ""
+"Granska .po-översättningar med diff-vy, kommentarer och godkännandeprocess."

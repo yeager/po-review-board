@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[o:danielnylander:p:po-review-board:r:po-review-board-pot]
+[o:danielnylander:p:po-review-board:r:po_review_board]
 file_filter = po/<lang>.po
 source_file = po/po-review-board.pot
 source_lang = en
