@@ -1,0 +1,17 @@
+name: Transifex Sync
+on:
+  push:
+    paths: ['po/*.pot']
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install TX CLI
+        run: pip install transifex-client
+      - name: Push source
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+        run: tx push -s --no-interactive

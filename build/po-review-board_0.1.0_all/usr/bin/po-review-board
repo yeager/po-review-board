@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+from po_review_board.main import main
+main()
