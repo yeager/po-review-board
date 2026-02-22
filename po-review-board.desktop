@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PO Review Board
+Comment=Review .po translations with diff view, comments and approval
+Exec=po-review-board
+Icon=document-edit-symbolic
+Terminal=false
+Categories=Development;Translation;
