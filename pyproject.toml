@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "po-review-board"
-version = "0.1.0"
+version = "0.1.1"
 description = "GTK4 app for reviewing .po translations with diff view, comments and approval"
 requires-python = ">=3.10"
 license = "GPL-3.0-or-later"
