@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the po-review-board package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: po-review-board 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-22 07:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/po_review_board/main.py:141 src/po_review_board/main.py:153
+#: src/po_review_board/main.py:747
+msgid "PO Review Board"
+msgstr ""
+
+#: src/po_review_board/main.py:157
+msgid "Open .po file"
+msgstr ""
+
+#: src/po_review_board/main.py:161
+msgid "Compare with another .po file"
+msgstr ""
+
+#: src/po_review_board/main.py:167
+msgid "All entries"
+msgstr ""
+
+#: src/po_review_board/main.py:167
+msgid "Untranslated"
+msgstr ""
+
+#: src/po_review_board/main.py:167
+msgid "Fuzzy"
+msgstr ""
+
+#: src/po_review_board/main.py:168 src/po_review_board/main.py:600
+msgid "Approved"
+msgstr ""
+
+#: src/po_review_board/main.py:168 src/po_review_board/main.py:601
+msgid "Rejected"
+msgstr ""
+
+#: src/po_review_board/main.py:168 src/po_review_board/main.py:602
+msgid "Needs work"
+msgstr ""
+
+#: src/po_review_board/main.py:181 src/po_review_board/main.py:686
+msgid "Export Review Report"
+msgstr ""
+
+#: src/po_review_board/main.py:182
+msgid "Copy Debug Info"
+msgstr ""
+
+#: src/po_review_board/main.py:183
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/po_review_board/main.py:184
+msgid "About PO Review Board"
+msgstr ""
+
+#: src/po_review_board/main.py:199
+msgid "Search entries..."
+msgstr ""
+
+#: src/po_review_board/main.py:225
+msgid "No file loaded"
+msgstr ""
+
+#: src/po_review_board/main.py:226
+msgid "Open a .po or .pot file to start reviewing translations."
+msgstr ""
+
+#: src/po_review_board/main.py:240
+msgid "Source (msgid)"
+msgstr ""
+
+#: src/po_review_board/main.py:254
+msgid "Translation (msgstr)"
+msgstr ""
+
+#: src/po_review_board/main.py:268
+msgid "Diff"
+msgstr ""
+
+#: src/po_review_board/main.py:293
+msgid "Approve"
+msgstr ""
+
+#: src/po_review_board/main.py:298
+msgid "Needs Work"
+msgstr ""
+
+#: src/po_review_board/main.py:303
+msgid "Reject"
+msgstr ""
+
+#: src/po_review_board/main.py:308
+msgid "Clear"
+msgstr ""
+
+#: src/po_review_board/main.py:316
+msgid "Review Comment"
+msgstr ""
+
+#: src/po_review_board/main.py:328
+msgid "Save Comment"
+msgstr ""
+
+#: src/po_review_board/main.py:348
+msgid "Ready"
+msgstr ""
+
+#: src/po_review_board/main.py:364
+msgid "Welcome"
+msgstr ""
+
+#: src/po_review_board/main.py:370
+msgid "Welcome to PO Review Board"
+msgstr ""
+
+#: src/po_review_board/main.py:372
+msgid ""
+"Review .po translations with ease.\\n\\n✓ Visual diff between .po file "
+"versions\\n✓ Approve, reject, or mark entries as needs-work\\n✓ Add review "
+"comments per entry\\n✓ Filter by status, fuzzy, untranslated\\n✓ Export "
+"review reports"
+msgstr ""
+
+#: src/po_review_board/main.py:380
+msgid "Get Started"
+msgstr ""
+
+#: src/po_review_board/main.py:403
+msgid "Open PO File"
+msgstr ""
+
+#: src/po_review_board/main.py:405 src/po_review_board/main.py:426
+msgid "PO/POT files"
+msgstr ""
+
+#: src/po_review_board/main.py:424
+msgid "Open file to compare"
+msgstr ""
+
+#: src/po_review_board/main.py:442
+#, python-format
+msgid "Diff loaded: %s"
+msgstr ""
+
+#: src/po_review_board/main.py:467
+#, python-format
+msgid "Loaded: %s — %d entries"
+msgstr ""
+
+#: src/po_review_board/main.py:511
+msgid "fuzzy"
+msgstr ""
+
+#: src/po_review_board/main.py:570
+#, python-format
+msgid "Context: %s"
+msgstr ""
+
+#: src/po_review_board/main.py:588
+msgid "old"
+msgstr ""
+
+#: src/po_review_board/main.py:588
+msgid "new"
+msgstr ""
+
+#: src/po_review_board/main.py:592
+msgid "(no changes)"
+msgstr ""
+
+#: src/po_review_board/main.py:642
+#, python-format
+msgid "%(time)s — Comment saved"
+msgstr ""
+
+#: src/po_review_board/main.py:650
+#, python-format
+msgid ""
+"%(total)d entries, %(translated)d translated, %(fuzzy)d fuzzy, %(approved)d "
+"approved"
+msgstr ""
+
+#: src/po_review_board/main.py:710
+#, python-format
+msgid "Report exported to %s"
+msgstr ""
+
+#: src/po_review_board/main.py:727
+msgid "Debug info copied"
+msgstr ""
+
+#: src/po_review_board/main.py:733
+msgid "General"
+msgstr ""
+
+#: src/po_review_board/main.py:735
+msgid "Quit"
+msgstr ""
+
+#: src/po_review_board/main.py:736
+msgid "Export report"
+msgstr ""
+
+#: src/po_review_board/main.py:737
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: src/po_review_board/main.py:754
+msgid "Review .po translations with diff view, comments and approval workflow."
+msgstr ""
