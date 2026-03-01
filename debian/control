@@ -1,0 +1,23 @@
+Source: po-review-board
+Section: devel
+Priority: optional
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               pybuild-plugin-pyproject
+Standards-Version: 4.7.0
+Homepage: https://github.com/yeager/po-review-board
+Vcs-Git: https://github.com/yeager/po-review-board.git
+Vcs-Browser: https://github.com/yeager/po-review-board
+
+Package: po-review-board
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         python3-gi,
+         gir1.2-gtk-4.0,
+         gir1.2-adw-1
+Description: GTK4 review board for PO translation files
+ GTK4/Adwaita application for reviewing .po translation files\n with diff view, comments, and approval workflow. Helps translation\n teams coordinate and review localization work.
